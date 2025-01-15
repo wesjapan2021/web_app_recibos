@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    text-align: left;
+    width: 90mm; /* Ancho típico para impresoras térmicas */
+}
+
+.container {
+    padding: 5mm;
+}
+
+.header, .footer {
+    text-align: center;
+}
+
+.header img {
+    width: 370px; /* Ajusta el tamaño según sea necesario */
+    height: auto;
+}
+
+.content {
+    margin-top: 10mm;
+    margin-bottom: 10mm;
+}
+
+.qr-code, .signature {
+    text-align: left;
+    margin-top: 5mm;
+}
+
+.qr-code img, .signature img {
+    width: 100px; /* Ajusta el tamaño según sea necesario */
+    height: auto;
+}
+
+.footer {
+    margin-top: 10mm;
+} 
