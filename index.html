@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recibo de Caja</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="logo_recibo.png" alt="Logo Empresa">
+            <h2></h2>
+            <h3>RECIBO DE CAJA</h3>
+        </div>
+        
+        <div class="content">
+            <div class="detail"><strong>NO. RECIBO:</strong> <span data-field="noRecibo"></span></div>
+            <div class="detail"><strong>FECHA:</strong> <span data-field="fechaRecibo"></span></div>
+            <div class="detail"><strong>LUGAR:</strong> <span data-field="lugar"></span></div>
+            <div class="detail"><strong>CLIENTE:</strong> <span data-field="idCliente"></span></div>
+            <div class="detail"><strong>NOMBRE CLIENTE:</strong> <span data-field="nombreCliente"></span></div>
+            <div class="detail"><strong>NIT:</strong> <span data-field="noNit"></span></div>
+            <div class="detail"><strong>CANTIDAD PAGADA:</strong> <span data-field="cantidadPagada"></span></div>
+            <div class="detail"><strong>ACREDITADO COMO:</strong> <span data-field="pagoAcreditadocomo"></span></div>
+            <div class="detail"><strong>CODIGO DE VENTA:</strong> <span data-field="noVenta"></span></div>
+            <div class="detail"><strong>FECHA VENTA:</strong> <span data-field="fechaVenta"></span></div>
+            <div class="detail"><strong>TOTAL DE VENTA:</strong> <span data-field="totalVenta"></span></div>
+            <div class="detail"><strong>SE PAGO EN EFECTIVO:</strong> <span data-field="pagoenEfectivo"></span></div>
+            <div class="detail"><strong># CHEQUE:</strong> <span data-field="noCheque"></span></div>
+            <div class="detail"><strong>NOMBRE DEL BANCO:</strong> <span data-field="nombreBanco"></span></div>
+            <div class="detail"><strong>OBSERVACIONES:</strong> <span data-field="observaciones"></span></div>
+            <div class="detail"><strong>FECHA A DEPOSITAR:</strong> <span data-field="fechaaDepositar"></span></div>
+            <div class="detail"><strong>ASESOR:</strong> <span data-field="nombreAsesor"></span></div>
+        </div>
+            
+        <div class="signature">
+            <strong>F:</strong><br>
+            <img src="" alt="Firma del asesor">
+        </div>
+
+        <div class="qr-code">
+            <img src="" alt="QR Code">
+        </div>
+
+        <p></p>
+        <p><strong>TODO LO PUEDO EN CRISTO QUE ME FORTALECE!</strong></p>
+        <p></p>
+        
+        <div class="footer">
+        <p></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
